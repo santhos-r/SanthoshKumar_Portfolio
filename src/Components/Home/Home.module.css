@@ -1,0 +1,74 @@
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexcontainer > :nth-child(2) {
+  margin-top: 1.2em;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--clr-fg-alt);
+}
+
+.about__desc {
+  color: var(--clr-primary);
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4em;
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.h1 {
+  font-size: 75px;
+}
+
+.span {
+}
+
+.p {
+  margin: 5px 250px;
+}
+
+.icons {
+  display: flex;
+}
+
+.ul {
+}
+
+.img {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .mobileHead {
+    align-content: center;
+  }
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+  }
+  .about > :nth-child(2) {
+    font-size: 1.5rem;
+  }
+}
