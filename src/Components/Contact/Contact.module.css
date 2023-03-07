@@ -1,4 +1,17 @@
-.maindiv {
+.maildiv {
   display: flex;
   flex-direction: column;
+  padding: 25px;
+  border: 1px solid grey;
 }
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .form{
+
+} */

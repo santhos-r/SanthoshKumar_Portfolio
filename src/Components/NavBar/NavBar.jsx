@@ -20,16 +20,6 @@ const NavBar = () => {
 
   return (
     <nav className={classes.navbar}>
-      {/* <button
-        type="button"
-        onClick={toggeltheme}
-        className="btn btn--icon nav__theme"
-        aria-label="toggle theme"
-        style={{ backgroundColor: "inherit" }}
-      >
-        {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
-      </button> */}
-
       <button
         type="button"
         onClick={toggeltheme}

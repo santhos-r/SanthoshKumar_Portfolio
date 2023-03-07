@@ -1,5 +1,5 @@
 import "./App.css";
-import { NavBar, Home, About, Skills, Experience, Contact } from "./Components";
+import { Home, About, Skills, NavBar, Contact } from "./Components";
 import { ThemeContext } from "./Context/Theme";
 import { useContext } from "react";
 import { ScrollToTop } from "./Components/Footer/ScrolltoTop";
@@ -18,7 +18,7 @@ function App() {
         <Skills />
         {/* <Experience />*/}
         <Contact />
-        {/* <ScrollToTop />  */}
+        <ScrollToTop /> 
       </main>
     </div>
   );

@@ -5,22 +5,26 @@ import { Type } from '../Content/Typewritter';
 import classes from "./Home.module.css";
 
 
+const buttonClickHandler = () => {
+    console.log("Sa");
+    window.open(
+        "https://drive.google.com/file/d/1diUf9LUJt5dHaF8Wkm54DJR5pq6AyzXn/view?usp=share_link"
+    )
+}
 const Home = () => {
     return (
         <section id="#home">
             <div className={classes.flexcontainer}>
                 <h1 className="mobileHead">Hello, This is <span className={classes.about__name}> Santhosh Kumar R </span></h1>
                 <Type />
-                <p className={classes.about__desc}>
-                    {/* Passionate and creative Full Stack Developer having proficiency in
-                    MERN Stack. Attired with a variety of tools & technologies and keen to
-                    learn new one. Worked on wordpress since last 3 years and delivered
-                    15+ projects till now. */}
-                    I have a comprehensive understanding of both front-end and back-end technologies. With expertise in programming languages
-                    such as JavaScript, Python, and PHP, I have developed dynamic and responsive web applications. My experience with databases,
-                    API integrations, and web development frameworks enables me to create robust and scalable software solutions. I am dedicated
-                    to continuously learning and staying up-to-date with emerging technologies to deliver high-quality software products.
-                </p>
+
+                <p className={classes.p}> Possess a diverse set of technical skills encompassing both front-end and back-end development.
+                    With proficiency in programming languages such as Javascript, .Net, and SQL, I have developed scalable and responsive web applications.
+                    I have hands-on experience in designing and implementing complex databases,
+                    integrating with RESTful APIs, and using web development frameworks such as React and Node.js.</p>
+                <p className={classes.p}>Additionally, my knowledge of DevOps practices and agile methodologies enables me to collaborate effectively
+                    with cross-functional teams to deliver high-quality software products.</p>
+
                 <div className={classes.icons}>
                     {socialMedia.map((social, index) => (
                         <img className={classes.img}
@@ -31,8 +35,7 @@ const Home = () => {
                         />
                     ))}
                 </div>
-                <Button />               
-
+                <Button btnName="Download CSV" btnClick={buttonClickHandler} type="button" />
             </div>
         </section>
 

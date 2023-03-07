@@ -1,9 +1,9 @@
 import React from 'react'
 import classes from "./Skills.module.css";
-import { SiJirasoftware, SiConfluence, SiMicrosoftazure, SiJavascript, SiHtml5, SiExpress, SiPostgresql, SiTypescript } from "react-icons/si"
+import { SiJirasoftware, SiConfluence, SiJavascript, SiHtml5, SiExpress, SiPostgresql, SiTypescript } from "react-icons/si"
 import { DiCss3, DiDotnet, DiScrum } from "react-icons/di";
 import { VscGithub } from "react-icons/vsc";
-import { BsFiletypeSql, BsBootstrap, BsFiletypeJson, BsFiletypeXml } from "react-icons/bs";
+import { BsFiletypeSql, BsFiletypeJson, BsFiletypeXml } from "react-icons/bs";
 import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
 import { TbApi } from "react-icons/tb";
 
@@ -65,7 +65,7 @@ const Skills = () => {
             <VscGithub />
             <h5>Github</h5>
           </div>
-          <div>
+          {/* <div>
             <BsFiletypeJson />
             <h5>JSON</h5>
           </div>
@@ -88,7 +88,7 @@ const Skills = () => {
           <div>
             <FaAws />
             <h5>Cloud</h5>
-          </div>
+          </div> */}
         </div>
       </div>
     </section >
