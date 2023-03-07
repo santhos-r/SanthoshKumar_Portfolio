@@ -13,9 +13,9 @@ function App() {
     <div id="top" className={`${themename} app`}>
       <NavBar />
       <main>
-        {/* <Home /> */}
-        {/* <About /> */}
-        {/* <Skills /> */}
+        <Home />
+        <About />
+        <Skills />
         {/* <Experience />*/}
         <Contact />
         {/* <ScrollToTop />  */}
