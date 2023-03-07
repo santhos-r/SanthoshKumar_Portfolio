@@ -7,9 +7,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  outline: 0;
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  outline: 0;
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  color: var(--clr-fg-alt);
 }
 
 h1 {

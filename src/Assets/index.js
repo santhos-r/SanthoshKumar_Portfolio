@@ -1,7 +1,6 @@
 import menu from "./menu.svg";
 import close from "./close.svg";
 import profile from "./profile.png";
-
 import linkedin from "./linkedin.svg";
 import github from "./github.svg";
 import facebook from "./facebook.svg";

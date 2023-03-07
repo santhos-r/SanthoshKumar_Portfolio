@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row-reverse;
   font-size: 15px;
-  padding: 1.5em;
+  padding: 5em 10em;
 }
 
 .ul {
@@ -18,8 +18,6 @@
 .nav__theme {
   margin-top: 0.4em;
 }
-
-
 
 /* .li:hover {
   font-weight: bold;

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 .app {
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
@@ -12,7 +12,7 @@
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px x0px;
 }
 
 .dark {
@@ -33,6 +33,7 @@
   text-align: center;
   margin-bottom: 1em;
   text-transform: uppercase;
+  margin-top: 2em;
 }
 
 main {

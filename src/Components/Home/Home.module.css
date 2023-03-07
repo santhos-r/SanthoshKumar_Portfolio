@@ -46,6 +46,7 @@
 
 .icons {
   display: flex;
+  margin-top: 3em;
 }
 
 .ul {
@@ -71,4 +72,11 @@
   .about > :nth-child(2) {
     font-size: 1.5rem;
   }
+}
+
+.button {
+  border: 2px solid darkblue;
+  margin-top: 15px;
+  border-radius: 20px;
+  padding: 5px;
 }
