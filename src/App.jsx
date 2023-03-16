@@ -1,14 +1,18 @@
 import "./App.css";
-import { Home, About, Skills, NavBar, Contact } from "./Components";
+import { Home, About, Skills, NavBar, Experience, Contact } from "./Components";
 import { ThemeContext } from "./Context/Theme";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { ScrollToTop } from "./Components/Footer/ScrolltoTop";
-// import { Contact, Experience, Home, NavBar, PersonalInfo, Skills } from "./Components";
+import Aos from "aos";
+import "aos/dist/aos.css";
+// import { Contact,  Home, NavBar, PersonalInfo, Skills } from "./Components";
 
 function App() {
 
   const [{ themename }] = useContext(ThemeContext);
-
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
   return (
     <div id="top" className={`${themename} app`}>
       <NavBar />
@@ -16,9 +20,9 @@ function App() {
         <Home />
         <About />
         <Skills />
-        {/* <Experience />*/}
+        <Experience />
         <Contact />
-        <ScrollToTop /> 
+        <ScrollToTop />
       </main>
     </div>
   );

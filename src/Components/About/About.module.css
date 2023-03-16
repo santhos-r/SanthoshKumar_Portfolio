@@ -9,7 +9,7 @@
   flex-direction: column;
   flex: 50%;
   padding: 10px;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
 }
 
@@ -21,13 +21,9 @@
 }
 
 .imgdiv {
-  display: flex;
-  justify-content: center;
-  border-radius: 25%;
-  border-color: var(--clr-primary);
-}
-.div3 {
-  background-color: lightgreen;
+  height: 85%;
+  border-radius: 50%;
+  border: 2px solid var(--clr-primary);
 }
 
 .subdiv {
@@ -37,8 +33,18 @@
   padding: 1em;
 }
 
-.p{
-  margin-bottom: 2em;
-  font-style: oblique;
+.datacontainer {
+  flex-basis: 55%;
+}
+
+.different {
   color: var(--clr-primary);
+  padding-bottom:0.5em
+}
+
+.icons {
+  position: relative;
+  top: 5px;
+  color: var(--clr-fg-alt);
+  margin-right: 0.5em;
 }

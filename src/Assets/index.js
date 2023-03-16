@@ -5,6 +5,7 @@ import linkedin from "./linkedin.svg";
 import github from "./github.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
+import phone from "./phone.png";
 import resume from "./CV_SanthoshKumar_Rajagopal.pdf";
 
-export { menu, close, profile, linkedin, github, facebook, instagram, resume };
+export { menu, close, profile, linkedin, github, facebook, instagram, resume,phone };

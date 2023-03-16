@@ -8,7 +8,7 @@ export const Type = () => {
         options={{
           strings: ['Full Stack Developer',
             'React Developer',
-            'Techincal lead',
+            'Techincal Lead',
             'Node Developer'],
           autoStart: true,
           loop: true,

@@ -1,0 +1,8 @@
+
+
+Deployment in Vercel + LinkedIn + Facebook + CV + All the Job portals
+
+
+For Future
+Code to be optimized
+try to add some css animations/effects in the portal.
